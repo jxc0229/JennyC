@@ -181,3 +181,13 @@ footer {
   height: 10px;
   /* The space you want to create */
 }
+
+
+/* Style for the LinkedIn icon */
+.fab.fa-linkedin {
+  font-size: 24px;
+  /* Adjust the icon size as needed */
+  margin-left: 10px;
+  /* Add space between the text and icon */
+  color: #fff;
+}
