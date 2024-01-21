@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Website</title>
+  <title>Jenny Chen</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
-    <h1>Welcome to My Personal Website</h1>
+    <h1>Research Projects</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -21,14 +21,87 @@
     </nav>
   </header>
   <main>
-    <section>
-      <h2>About Me</h2>
-      <p><!-- Brief introduction about yourself --></p>
+    <section id="QSlack">
+      <h2>QSlack: A slack-variable approach for variational quantum semi-definite programming <a
+          href="https://arxiv.org/abs/2312.03830" target="_blank">(pre-print:arXiv:2312.03830)</a></h2>
+      <p><strong>Authors:</strong> <strong>Jingxuan (Jenny) Chen</strong>, Hanna Westerheim, Zoë Holmes, Ivy Luo,
+        Theshani Nuradha, Dhrumil Patel, Soorya Rethinasamy, Kathie Wang, Mark M. Wilde</p>
+      <p><strong>Brief description:</strong></p>
     </section>
-    <!-- Additional sections can be added here -->
+    <section class="research-project">
+
+      <div class="project-description">
+
+        <p>In this project, we introduce variational quantum algorithms to solve reformulated semi-definite programming
+          (SDP)
+          problems. Our algorithm aims to utilize the combined computational power of quantum and classical computers to
+          perform optimization tasks beyond the simulation capabilities of classical computers. The algorithm can solve
+          for both the primal and dual of the SDPs to provide a lower and upper bound on the optimal value. It is
+          particularly interesting to me because of its broad applicability–we can apply this algorithm to all problems
+          that can be formulated as SDPs. We applied this algorithm to several problems of interest in quantum
+          information
+          and physics, including estimating trace distance, entanglement negativity, root fidelity, and constrained
+          Hamiltonian optimization.</p>
+      </div>
+      <div class="project-image">
+        <img src="./research/qslack-sdp.png" alt="qslack-image">
+        <p class="caption">General workflow of the QSlack method.</p>
+      </div>
+    </section>
+
+    <section>
+      <!-- < empty spaces between projects> -->
+      <div class="spacer"></div>
+    </section>
+
+    <section id="dual-VQE">
+      <h2>Dual-VQE: A quantum algorithm to lower bound the ground-state energy <a
+          href="https://arxiv.org/abs/2312.03083" target="_blank">(pre-print:arXiv:2312.03083)</a></h2>
+      <p><strong>Authors:</strong> Hanna Westerheim, <strong>Jingxuan (Jenny) Chen</strong>, Zoë Holmes, Ivy Luo,
+        Theshani Nuradha,
+        Dhrumil Patel, Soorya Rethinasamy, Kathie Wang, Mark M. Wilde</p>
+      <p><strong>Brief description:</strong></p>
+    </section>
+
+    <section class="research-project">
+
+      <div class="project-description">
+
+        <p>The variational quantum eigensolver (VQE) is a hybrid quantum-classical variational algorithm that produces
+          an upper-bound estimate of the ground-state energy of a Hamiltonian. This project uses the method we
+          introduced in the <a href="#QSlack">QSlack</a> paper but only investigates the application of this method in
+          the VQE problems. Our
+          method produces a lower-bound estimate of the ground-state energy. As such, VQE and dual-VQE can serve as
+          quality checks on their solutions; in the ideal case, the VQE upper bound and the dual-VQE lower bound form an
+          interval containing the true optimal value of the ground-state energy. The idea behind dual-VQE is to employ
+          semi-definite programming duality to rewrite the ground-state optimization problem as a constrained
+          maximization problem, which itself can be bounded from below by an unconstrained optimization problem to be
+          solved by a variational quantum algorithm.
+        </p>
+      </div>
+      <div class="project-image-gallery">
+        <div class="" project-image">
+          <img src="./research/vqed_p_sandwich.png" alt="vqed-sandwich">
+          <p class="caption">Simulation result of the objective function. Primal approaches from the top and dual
+            approaches from the bottom.</p>
+        </div>
+
+        <div class="" project-image">
+          <img src="./research/vqed_p_error.png" alt="vqed-error">
+          <p class="caption">Distance away from the optimal result for both primal and dual.</p>
+        </div>
+
+        <div class="" project-image">
+          <img src="./research/vqed_p_penalty.png" alt="vqed-penal">
+          <p class="caption">Penalty value. 0 means the constraints are satisfied.</p>
+        </div>
+
+      </div>
+    </section>
+
   </main>
   <footer>
-    <p>© 2024 by Your Name. All rights reserved.</p>
+    <p>© 2024 by Jenny Chen. All rights reserved.</p>
   </footer>
   <script src="script.js"></script>
 </body>
