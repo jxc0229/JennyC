@@ -2,6 +2,8 @@
 
 This is a portfolio website showcasing my previous experiences, projects, and some of the teaching materials that I made. 
 
+Website link is: https://jxc0229.github.io/JennyC/
+
 ## Features
 
 - About Me page with information about myself
