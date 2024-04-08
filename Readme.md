@@ -15,7 +15,7 @@ This is a portfolio website showcasing my previous experiences, projects, and so
 The basic framework (color scheme, transition animations, etc.) used a template called iPortfolio. Detailed information will be included below. 
 Individual page design is mostly different from the original template.
 
-Template Name: iPortfolio
-Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+- Template Name: iPortfolio
+- Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+- Author: BootstrapMade.com
+- License: https://bootstrapmade.com/license/
