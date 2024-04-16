@@ -17,6 +17,8 @@
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -52,15 +54,18 @@
         <div style="margin-bottom: 40px;"></div>
         <h1 class="text-light"><a href="index.html">Jenny Chen</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="https://www.youtube.com/@CornellCS-ws2ys" class="google-plus"><i class="bx bxl-youtube"></i></a>
-          <a href="https://www.linkedin.com/in/jingxuan-jenny-chen" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.youtube.com/@CornellCS-ws2ys" target="_blank" class="google-plus"><i
+              class="bx bxl-youtube"></i></a>
+          <a href="https://www.linkedin.com/in/jingxuan-jenny-chen" target="_blank" class="linkedin"><i
+              class="bx bxl-linkedin"></i></a>
         </div>
       </div>
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Experience</span></a>
+          <li><a href="#experience" class="nav-link scrollto"><i class="bx bx-file-blank"></i>
+              <span>Experience</span></a>
           </li>
           <li><a href="#research" class="nav-link scrollto"><i class="bx bx-book-content"></i>
               <span>Research</span></a></li>
@@ -74,48 +79,39 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <!-- <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Alex Smith</h1>
-      <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
-    </div>
-  </section> -->
-  <!-- End Hero -->
-
   <main id="main">
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
-
         <div class="section-title">
           <h2>About</h2>
         </div>
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="An image of Jenny Chen in a red sweater">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left" style="font-size: larger;">
             <p>
               Hello! I'm Jenny, a senior Computer Science student at Cornell University, specializing in quantum
               computing and optimization. My interest in efficiency led me to the world of quantum computing, where I've
               been actively involved in research for the past two years. My current interests lie in algorithms, machine
-              learning, and also robotics. </p>
+              learning, and robotics. </p>
 
             <p>Alongside my studies, I've found joy in teaching, whether to college or high school students. I also
-              enjoy cooking and doing yoga a lot. I'll be pursuing an MS at Stanford this fall, aiming to
+              enjoy cooking and doing yoga a lot. I'll join the MSCS program at Stanford this fall, aiming to
               explore more areas in computer science and turn technologies into real-world products.</p>
 
           </div>
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section>
+    <!-- End About Section -->
 
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
+    <!-- ======= experience Section ======= -->
+    <section id="experience" class="experience">
       <div class="container">
 
         <div class="section-title">
@@ -125,7 +121,7 @@
         <div class="row">
           <!-- <h3> Working </h3> -->
           <div class="col-lg-6" data-aos="fade-up">
-            <div class="resume-item">
+            <div class="experience-item">
               <h4>Research assistant</h4>
               <h5>May 2023 - Present</h5>
               <p><em>Cornell University, Ithaca, NY </em></p>
@@ -135,16 +131,11 @@
                 <li>Implemented algorithms in Python using various quantum computing libraries such as PennyLane,
                   Qiskit, and Qulacs</li>
                 <li>Engineered a maintainable code structure to enhance code readability and modularity</li>
-                <li> Sped up the simulation by 1000+ times using Numpy</li>
-                <li>Visualized and processed simulation results using Matplotlib to enhance data comprehension</li>
-                <li>Developed lectures and assignments for high school students to learn quantum computing and
-                  programming</li>
                 <li>Presented this work at APS March Meeting 2024, section B51.010</li>
                 <li><strong>Skills:</strong> Python, Numpy, OOP, Matplotlib, Qiskit, Qulacs, Git</li>
-                <li><strong>Soft skills:</strong> Communication, Presentation, Problem solving</li>
               </ul>
             </div>
-            <div class="resume-item">
+            <div class="experience-item">
               <h4>Summer internship</h4>
               <h5>May 2022 - August 2022</h5>
               <p><em>XPENG Motors, San Diego, CA</em></p>
@@ -156,15 +147,14 @@
                 </li>
                 <li>Trained a GAN using PyTorch and finetuned its parameters to generate more than 1000 high-quality
                   data </li>
-                <li><strong>Skills:</strong> Python, Numpy, PyTorch, Pandas, Machine Learning, Deep Learning, Git</li>
-                <li><strong>Soft skills:</strong> Analytical thinking</li>
+                <li><strong>Skills:</strong> Python, Numpy, PyTorch, TensorFlow, Pandas, Machine Learning, Deep
+                  Learning, CNN, Git</li>
               </ul>
             </div>
           </div>
 
-          <!-- <h3> Teaching </h3> -->
-          <div class="col-lg-6" data-aos="fade-up">
-            <div class="resume-item">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="experience-item">
               <h4>Teaching assistant</h4>
               <h5>January 2024 - Present</h5>
               <p><em>Cornell University, Discrete Structures</em></p>
@@ -174,7 +164,7 @@
               </ul>
             </div>
 
-            <div class="resume-item">
+            <div class="experience-item">
               <h4>Teaching assistant</h4>
               <h5>August 2022 - May 2023</h5>
               <p><em>Cornell University, Introduction to Analysis of Algorithms</em></p>
@@ -191,21 +181,29 @@
         </div>
 
       </div>
-    </section><!-- End Resume Section -->
+    </section>
+    <!-- End experience Section -->
 
-    <!-- ======= Services Section ======= -->
+    <!-- ======= Research Section ======= -->
     <section id="research" class="research">
       <div class="container">
-
         <div class="section-title">
           <h2>Research</h2>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-            <h4 class="title"><a href="https://arxiv.org/abs/2312.03830">QSlack: A slack-variable approach for
-                variational quantum semi-definite
-                programming</a></h4>
+            <h4 class="paper-title"><a href="https://arxiv.org/abs/2312.03830" target="_blank">QSlack: A slack-variable
+                approach for variational quantum semi-definite programming
+                <i class="fas fa-external-link-alt fa-xs"></i>
+              </a>
+            </h4>
+
+            <div class="research-image" style="height: 40%; object-fit: cover; overflow: hidden;">
+              <img src="assets/img/research/qslack-alg.png" alt="An image of the algorithm of the QSlack paper."
+                style="width: 95%; height: auto;">
+            </div>
+
             <p class="description">Our project mainly uses Variational Quantum Algorithms (VQAs) to solve optimization
               problems such as Semi-definite Programs (SDPs). VQAs use quantum computers to evaluate the cost function
               and classical computers to optimize. In this way, VQAs use the strength of both quantum and classical
@@ -214,8 +212,17 @@
               for the simulation experiments and teaching high school students in our lab.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <h4 class="title"><a href="https://arxiv.org/abs/2312.03083">Dual-VQE: A quantum algorithm to lower bound
-                the ground-state energy</a></h4>
+            <h4 class="paper-title"><a href="https://arxiv.org/abs/2312.03083" target="_blank">Dual-VQE: A quantum
+                algorithm to lower bound the ground-state energy
+                <i class="fas fa-external-link-alt fa-xs"></i>
+              </a>
+            </h4>
+
+            <div class="research-image" style="height: 40%; object-fit: cover; overflow: hidden;">
+              <img src="assets/img/research/dual-sandwitch.png"
+                alt="An image of training plots covering to the correct value." style="width: 95%; height: auto;">
+            </div>
+
             <p class="description">Dual-VQE uses the same method we proposed in QSlack, but focus on one particular
               problem that is of interest of the physics community, namely, finding the ground state energy of a
               Hamiltonian. Here we propose a dual variational quantum eigensolver (dual-VQE) that produces a lower-bound
@@ -228,10 +235,10 @@
 
       </div>
     </section>
-    <!-- End Services Section -->
+    <!-- End Research Section -->
 
-
-    <section id="teaching" class="services"></section>
+    <!-- ======= Teaching Section ======= -->
+    <section id="teaching" class="teaching"></section>
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
@@ -239,20 +246,21 @@
         <p>Here's a list of study materials I created for students on topics that I think is hard or confusing. </p>
       </div>
 
-      <div class="row">
+      <div class="row mb-4">
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box iconbox-blue">
             <div class="image-container" style="height: 50%; object-fit: cover; overflow: hidden;">
-              <img src="assets/img/teaching/dc_runtime.png" alt="Image"
-                style="width: 100%; height: auto; opacity: 0.5;">
+              <img src="assets/img/teaching/dc_runtime.png" alt="An image with a tree structure."
+                style="width: 100%; height: auto;">
             </div>
             <div class="text-container" style="height: 50%; overflow: hidden; margin-top: 10px;">
               <h4>Divide and Conquer</a></h4>
               <p>A brief tutorial on how to analyze the runtime for divide and conquer problems.</p>
               <div class="button-container">
-                <a href="assets/files/Runtime_DC.pdf" class="download-button"><i class="bx bxs-download"></i> Slides</a>
-                <a href="https://youtu.be/gFQosLu3qw4?si=z8YlrMRHxf1UrEj4" class="youtube-button"><i
+                <a href="assets/files/Runtime_DC.pdf" target="_blank" class="download-button"><i
+                    class="bx bxs-download"></i> Slides</a>
+                <a href="https://youtu.be/gFQosLu3qw4?si=z8YlrMRHxf1UrEj4" target="_blank" class="youtube-button"><i
                     class="bx bxl-youtube"></i> Video</a>
               </div>
             </div>
@@ -262,13 +270,15 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box iconbox-blue">
             <div class="image-container" style="height: 50%; object-fit: cover; overflow: hidden;">
-              <img src="assets/img/teaching/dp_proof.png" alt="Image" style="width: 100%; height: auto; opacity: 0.5;">
+              <img src="assets/img/teaching/dp_proof.png" alt="An image of a DP problem."
+                style="width: 100%; height: auto;">
             </div>
             <div class="text-container" style="height: 50%; overflow: hidden; margin-top: 10px;">
               <h4>Dynamic Programming sample proof</a></h4>
               <p>An example of all components for a proof for DP problems.</p>
               <div class="button-container">
-                <a href="assets/files/HW3_sample_proof.pdf" class="download-button"><i class="bx bxs-download"></i>
+                <a href="assets/files/HW3_sample_proof.pdf" target="_blank" class="download-button"><i
+                    class="bx bxs-download"></i>
                   File</a>
               </div>
             </div>
@@ -278,14 +288,15 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box iconbox-blue">
             <div class="image-container" style="height: 50%; object-fit: cover; overflow: hidden;">
-              <img src="assets/img/teaching/dp_review.png" alt="Image" style="width: 100%; height: auto; opacity: 0.5;">
+              <img src="assets/img/teaching/dp_review.png" alt="An image of a review document."
+                style="width: 100%; height: auto;  ">
             </div>
             <div class="text-container" style="height: 50%; overflow: hidden; margin-top: 10px;">
               <h4>Dynamic Programming review</a></h4>
               <p>A general overview of how to approch DP problems.</p>
               <div class="button-container">
                 <a href="https://drive.google.com/file/d/1LcHAbP65pajPD1FpGBSPUB_LQHuN9toC/view?usp=sharing"
-                  class="download-button"><i class="bx bxs-download"></i> File</a>
+                  target="_blank" class="download-button"><i class="bx bxs-download"></i> File</a>
               </div>
             </div>
           </div>
@@ -294,15 +305,16 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box iconbox-blue">
             <div class="image-container" style="height: 50%; object-fit: cover; overflow: hidden;">
-              <img src="assets/img/teaching/ham-cycle.png" alt="Image" style="width: 100%; height: auto; opacity: 0.5;">
+              <img src="assets/img/teaching/ham-cycle.png" alt="An image of a hamiltonian path."
+                style="width: 100%; height: auto;">
             </div>
             <div class="text-container" style="height: 50%; overflow: hidden; margin-top: 10px;">
               <h4>Hamiltonian cycle problem</a></h4>
               <p>A detailed walk through of how to prove Ham-cycle is NP-complete.</p>
               <div class="button-container">
-                <a href="assets/files/Reduction to Hamiltonian Cycle.pdf" class="download-button"><i
+                <a href="assets/files/Reduction to Hamiltonian Cycle.pdf" target="_blank" class="download-button"><i
                     class="bx bxs-download"></i> Slides</a>
-                <a href="https://youtu.be/5hHd2mMnRPU?si=IooipAjPYb8wJE3m" class="youtube-button"><i
+                <a href="https://youtu.be/5hHd2mMnRPU?si=IooipAjPYb8wJE3m" target="_blank" class="youtube-button"><i
                     class="bx bxl-youtube"></i> Video</a>
               </div>
             </div>
@@ -312,15 +324,16 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box iconbox-blue">
             <div class="image-container" style="height: 50%; object-fit: cover; overflow: hidden;">
-              <img src="assets/img/teaching/latex.png" alt="Image" style="width: 100%; height: auto; opacity: 0.5;">
+              <img src="assets/img/teaching/latex.png" alt="An image of a Latex tutorial."
+                style="width: 100%; height: auto;">
             </div>
             <div class="text-container" style="height: 50%; overflow: hidden; margin-top: 10px;">
               <h4>Latex overview</a></h4>
               <p>An introduction to commonly used latex commands and how to get started.</p>
               <div class="button-container">
                 <a href="https://drive.google.com/file/d/1N89Me32eIMUFp9JVfSN3Hb0FpHp58CKi/view?usp=drive_link"
-                  class="download-button"><i class="bx bxs-download"></i> File</a>
-                <a href="https://youtu.be/7P2lTd-TDGo?si=Hf_HtQ54Tm4o1WC1" class="youtube-button"><i
+                  target="_blank" class="download-button"><i class="bx bxs-download"></i> File</a>
+                <a href="https://youtu.be/7P2lTd-TDGo?si=Hf_HtQ54Tm4o1WC1" target="_blank" class="youtube-button"><i
                     class="bx bxl-youtube"></i> Video</a>
               </div>
             </div>
@@ -330,94 +343,29 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box iconbox-blue">
             <div class="image-container" style="height: 50%; object-fit: cover; overflow: hidden;">
-              <img src="assets/img/teaching/network.png" alt="Image" style="width: 100%; height: auto; opacity: 0.5;">
+              <img src="assets/img/teaching/network.png" alt="An image of a flow network."
+                style="width: 100%; height: auto;">
             </div>
             <div class="text-container" style="height: 50%; overflow: hidden; margin-top: 10px;">
               <h4>Network Flow</a></h4>
               <p>An overview of network flow problems and how to approach these problems.</p>
               <div class="button-container">
-                <a href="assets/files/flow_video_slides.pdf" class="download-button"><i class="bx bxs-download"></i>
+                <a href="assets/files/flow_video_slides.pdf" target="_blank" class="download-button"><i
+                    class="bx bxs-download"></i>
                   Slides</a>
-                <a href="https://youtu.be/UKFUvjHm1XY?si=pFe5B5AxqdPwnWS4" class="youtube-button"><i
+                <a href="https://youtu.be/UKFUvjHm1XY?si=pFe5B5AxqdPwnWS4" target="_blank" class="youtube-button"><i
                     class="bx bxl-youtube"></i> Video</a>
               </div>
             </div>
           </div>
         </div>
-
-      </div>
-
-    </div>
-    </section><!-- End Services Section -->
-
-
-
-    <!-- ======= Contact Section ======= -->
-    <!-- <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>Thank you for visiting my website! If you have questions, ideas to share, or just want to say hello, please
-            send me a note. I look forward to hearing all the fun ideas from you.
-          </p>
-        </div>
-
-        <div class="row" data-aos="fade-in">
-
-          <div class="col-12 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-
-        </div>
-
-      </div> -->
-    <!-- </section> -->
-    <!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <!-- <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>iPortfolio</span></strong>
-      </div>
-      <div class="credits"> -->
-  <!-- All the links in the footer should remain intact. -->
-  <!-- You can delete the links only if you purchased the pro version. -->
-  <!-- Licensing information: https://bootstrapmade.com/license/ -->
-  <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-  <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
-  </footer> -->
-  <!-- End  Footer -->
+    </section>
+    <!-- End teaching Section -->
+
+  </main>
+
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
