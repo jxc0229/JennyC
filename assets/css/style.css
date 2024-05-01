@@ -1,11 +1,3 @@
-/**
-* Template Name: iPortfolio
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -32,6 +24,7 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -362,6 +355,7 @@ section {
   color: #1f5297;
 }
 
+
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
@@ -444,9 +438,23 @@ section {
   padding-bottom: 10px;
 }
 
+.experience .experience-item ul li:last-child {
+  list-style-type: circle;
+  /* Change the style to square for the last list item */
+}
+
 .experience .experience-item:last-child {
   padding-bottom: 0;
 }
+
+.experience .default-list {
+  padding-left: 20px;
+}
+
+.experience .default-list li {
+  padding-bottom: 10px;
+}
+
 
 .experience .experience-item::before {
   content: "";
